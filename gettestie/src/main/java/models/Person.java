@@ -1,4 +1,5 @@
-package gettestie.src.main.java.rocks.zipcode;
+package models;
+
 
 
 public class Person {

@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import java.util.Stack;
 
 public class TestStack {
+    Stack<String> stack = new Stack<>();
 
     @org.junit.Before
     public void setUp() throws Exception {
@@ -15,8 +16,9 @@ public class TestStack {
 
     @org.junit.Test
     public void TestStack1() {
-        Stack<String> stack = new Stack<>();
+
         stack.push("Hello world");
+
         assertEquals(false, stack.isEmpty()); // false
     }
 
